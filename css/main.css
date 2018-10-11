@@ -1,0 +1,12 @@
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+u {
+   text-decoration: none;
+   border-bottom: 10px solid black;
+}
