@@ -23,3 +23,10 @@ u {
   background-color: #898989;
   height: 200px;
 }
+
+.outline-box {
+  border: 10px solid #000;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+}
