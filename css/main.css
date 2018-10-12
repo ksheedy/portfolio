@@ -12,7 +12,7 @@ h3 {
 
 u {
    text-decoration: none;
-   border-bottom: 10px solid black;
+   border-bottom: 8px solid black;
 }
 
 .social-media-footer {
@@ -29,4 +29,20 @@ u {
   height: 90%;
   width: 90%;
   position: absolute;
+}
+
+.case-study-preview .unit:hover .outline-box {
+  opacity: 0;
+}
+
+.case-study-hover {
+  color: #000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+}
+
+.case-study-preview .unit:hover .case-study-hover {
+  opacity: 1;
 }
