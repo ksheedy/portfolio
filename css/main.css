@@ -15,6 +15,11 @@ u {
    border-bottom: 8px solid black;
 }
 
+.social-media-icon {
+  color: #fff;
+  background-color: #000;
+}
+
 .social-media-footer {
   border-bottom: 10px solid #000;
 }
