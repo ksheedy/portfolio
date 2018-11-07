@@ -27,7 +27,7 @@
   </main>
   <footer>
     {% unless page.hidepager %}
-    <div class="text-center push-2">
+    <div class="lower-nav wrapper text-center push-2">
       <a class="island" href="{{page.previous}}">
         <svg class="icon i-32"><use xlink:href="images/icons.svg#arrow-previous"/></svg>
         <span>Previous</span>
@@ -41,22 +41,38 @@
       </a>
     </div>
     {% endunless %}
-    <div class="push-2">
-      <div class="push text-center social-media-footer">
-        <div class="push-1-2">
-          <a class="icon i-32" href="#">
-            <svg class="social-media-icon icon"><use xlink:href="images/icons.svg#socialmedia-insta"/></svg>
-          </a>
-          <a class="icon i-32" href="#">
-            <svg class="social-media-icon icon"><use xlink:href="images/icons.svg#socialmedia-email"/></svg>
-          </a>
-          <a class="icon i-32" href="#">
-            <svg class=" social-media-icon icon"><use xlink:href="images/icons.svg#socialmedia-linkedin"/></svg>
-          </a>
-          <a class="icon i-32" href="#">
-            <svg class="social-media-icon icon"><use xlink:href="images/icons.svg#socialmedia-vimeo"/></svg>
-          </a>
-        </div>
+    <div class="push-2 text-center">
+      <div class="push text-center social-media-footer inline-block">
+        <ul class="push-1-2 list-group-inline">
+          <li class="push-r-1-2">
+            <a class="island-1-4 icon-wrap" href="#">
+              <i class="icon i-32">
+                <svg class="social-media-icon"><use xlink:href="images/icons.svg#socialmedia-insta"/></svg>
+              </i>
+            </a>
+          </li>
+          <li class="push-r-1-2">
+            <a class="island-1-4 icon-wrap" href="#">
+              <i class="icon i-32">
+                <svg class="social-media-icon"><use xlink:href="images/icons.svg#socialmedia-email"/></svg>
+              </i>
+            </a>
+          </li>
+          <li class="push-r-1-2">
+            <a class="island-1-4 icon-wrap" href="#">
+              <i class="icon i-32">
+                <svg class="social-media-icon"><use xlink:href="images/icons.svg#socialmedia-linkedin"/></svg>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a class="island-1-4 icon-wrap" href="#">
+              <i class="icon i-32">
+                <svg class="social-media-icon"><use xlink:href="images/icons.svg#socialmedia-vimeo"/></svg>
+              </i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </footer>

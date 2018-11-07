@@ -32,9 +32,15 @@ a {
   border-bottom: 10px solid black;
 }
 
-.social-media-icon {
+.icon-wrap {
+  display: block;
   color: #fff;
   background-color: #000;
+}
+
+.icon-wrap:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .social-media-footer {
@@ -67,4 +73,10 @@ a {
 
 .case-study-preview .unit:hover .case-study-hover {
   opacity: 1;
+}
+
+.lower-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
