@@ -28,9 +28,17 @@
   <footer>
     {% unless page.hidepager %}
     <div class="text-center push-2">
-      <a href="{{page.previous}}">Previous</a>
-      <a href="index.html">Home</a>
-      <a href="{{page.next}}">Next</a>
+      <a class="island" href="{{page.previous}}">
+        <svg class="icon i-32"><use xlink:href="images/icons.svg#arrow-previous"/></svg>
+        <span>Previous</span>
+      </a>
+      <a class="island" href="index.html">
+        <svg class="icon i-48"><use xlink:href="images/icons.svg#home"/></svg>
+      </a>
+      <a class="island" href="{{page.next}}">
+        <span>Next</span>
+        <svg class="icon i-32"><use xlink:href="images/icons.svg#arrow-next"/></svg>
+      </a>
     </div>
     {% endunless %}
     <div class="push-2">

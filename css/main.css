@@ -15,6 +15,11 @@ u {
    border-bottom: 8px solid black;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .logo {
   color: #000;
 }
