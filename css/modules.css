@@ -205,6 +205,10 @@ svg.img-flex {
   padding-top: 206%;
 }
 
+.embed-dd {
+  padding-top: 150%;
+}
+
 .embed-item, .embed__item {
   min-height: 100%;
   left: 0;
