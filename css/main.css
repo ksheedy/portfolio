@@ -1,5 +1,13 @@
+:root {
+  --color-primary: #24b5b5;
+  --color-primary-light: #dfdddb;
+  --color-primary-dark: #676869;
+  --color-neutral-grey: #898989;
+  --font-primary: "Work Sans", sans-serif;
+}
+
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font-primary);
 }
 
 body {
@@ -7,7 +15,7 @@ body {
 }
 
 h3 {
-  color: #898989;
+  color: #000;
 }
 
 u {
@@ -22,6 +30,11 @@ a {
 
 .email-link {
   text-decoration: underline;
+  transition: color 300ms;
+}
+
+.email-link:hover {
+  color: var(--color-primary)
 }
 
 .logo {
@@ -36,20 +49,21 @@ a {
   display: block;
   color: #fff;
   background-color: #000;
+  transition: background-color 300ms;
 }
 
 .icon-wrap:hover {
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+.arrow:hover {
+  color: var(--color-primary);
+  transition: color 300ms linear;
 }
 
 .social-media-footer {
   border-bottom: 10px solid #000;
-}
-
-.header {
-  background-color: #898989;
-  height: 200px;
 }
 
 .outline-box {
