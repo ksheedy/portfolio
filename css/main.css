@@ -37,6 +37,19 @@ a {
   color: var(--color-primary)
 }
 
+
+.dd-link {
+  color: #fff;
+  background-color: var(--color-primary);
+  border: var(--color-primary);
+  transition: background-color 300ms;
+}
+
+.dd-link:hover {
+  background-color: #fff;
+  color: var(--color-primary)
+}
+
 .logo {
   color: #000;
 }
