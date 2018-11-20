@@ -58,7 +58,7 @@ a {
   display: none;
 }
 
-.portrait-overlay:hover {
+.portrait:hover .portrait-overlay {
   display: block;
 }
 
