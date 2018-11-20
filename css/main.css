@@ -54,6 +54,14 @@ a {
   color: #000;
 }
 
+.portrait-overlay {
+  display: none;
+}
+
+.portrait-overlay:hover {
+  display: block;
+}
+
 .h4-box {
   border-bottom: 10px solid black;
 }
