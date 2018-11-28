@@ -11,19 +11,23 @@
   <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico"/>
 </head>
 <body class="{{page.bodyclass}}">
-  <header class="{{page.logo-alignment}} gutter-1-2">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#contentinfo">Jump to footer</a></li>
+  </ul>
+  <header role="banner" class="{{page.logo-alignment}} gutter-1-2">
     <a href="index.html" class="">
       <div class="pad-t-2">
         <svg class="logo arrow"><use class="icon {{page.logosize}}" xlink:href="images/icons.svg#logo-{{page.logoshape}}"/></svg>
       </div>
     </a>
   </header>
-  <main class="{{page.mainclass}}">
+  <main id="main" role="main" class="{{page.mainclass}}">
 
 {{content}}
 
   </main>
-  <footer>
+  <footer id="contentinfo" role="contentinfo">
     {% unless page.hidepager %}
     <div class="lower-nav wrapper text-center push-2">
       <a class="island arrow" href="{{page.previous}}">
