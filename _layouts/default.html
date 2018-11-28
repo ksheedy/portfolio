@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Katie Sheedy</title>
+  <title>{{page.title}}</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -17,9 +17,18 @@
   </ul>
   <header role="banner" class="{{page.logo-alignment}} gutter-1-2">
     <a href="index.html" class="">
-      <div class="pad-t-2">
+      {% if page.url == '/' %}
+        <h1 class="push-0 pad-t-2">
+          <svg class="logo arrow"><use class="icon i-256" xlink:href="images/icons.svg#logo-square"/></svg>
+        </h1>
+      {% else %}
+        <div class="pad-t-2">
+          <svg class="logo arrow"><use class="icon i-192" xlink:href="images/icons.svg#logo-rectangle"/></svg>
+        </div>
+      {% endif %}
+      <!-- <div class="pad-t-2">
         <svg class="logo arrow"><use class="icon {{page.logosize}}" xlink:href="images/icons.svg#logo-{{page.logoshape}}"/></svg>
-      </div>
+      </div> -->
     </a>
   </header>
   <main id="main" role="main" class="{{page.mainclass}}">
