@@ -71,7 +71,8 @@ a:focus {
   display: none;
 }
 
-.portrait:hover .portrait-overlay {
+.portrait:hover .portrait-overlay,
+.portrait:focus .portrait-overlay {
   display: block;
 }
 
@@ -86,12 +87,14 @@ a:focus {
   transition: background-color 300ms;
 }
 
-.icon-wrap:hover {
+.icon-wrap:hover,
+.icon-wrap:focus {
   color: #fff;
   background-color: var(--color-primary);
 }
 
-.arrow:hover {
+.arrow:hover,
+.arrow:focus {
   color: var(--color-primary);
   transition: color 300ms linear;
 }
@@ -120,8 +123,15 @@ a:focus {
   transition: opacity 500ms;
 }
 
-.case-study-preview .unit:hover .case-study-hover {
+.case-study-preview .unit:hover .case-study-hover,
+.case-study-preview .unit:focus .case-study-hover {
   opacity: 1;
+}
+
+.case-study-preview .unit:hover,
+.case-study-preview .unit:focus {
+  position: relative;
+  z-index: 1000000;
 }
 
 .lower-nav {
