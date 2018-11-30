@@ -1,0 +1,3 @@
+Sitemap: https://katiesheedy.ca/sitemap.xml
+
+User-Agent: *
