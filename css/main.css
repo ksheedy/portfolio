@@ -63,8 +63,23 @@ a:focus {
   color: #fff)
 }
 
+.no-focus:focus {
+  outline: 0!important;
+}
+
 .logo {
   color: #000;
+}
+
+a:hover .logo,
+a:focus .logo {
+  color: var(--color-primary);
+  transition: color 300ms linear;
+}
+
+a:focus .logo {
+  outline: 3px solid #000;
+  outline-offset: 0;
 }
 
 .portrait-overlay {
