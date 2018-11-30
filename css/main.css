@@ -112,6 +112,7 @@ a:focus {
 
 .case-study-preview .unit:hover .outline-box {
   opacity: 0;
+  transition: opacity 300ms;
 }
 
 .case-study-hover {
