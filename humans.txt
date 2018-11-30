@@ -1,0 +1,14 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Katie Sheedy <hello@katiesheedy.ca>
+Site: http://katiesheedy.ca
+GitHub: https://github.com/ksheedy
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Thank you to Thomas Bradley, Adam Robillard and Owen Deery
