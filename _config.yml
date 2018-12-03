@@ -1,3 +1,2 @@
 markdown: redcarpet
-baseurl: /ksheedy/portfolio
 exclude: ['README.md']
